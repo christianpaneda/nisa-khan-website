@@ -212,7 +212,7 @@ article{
 
 /** SKIP TO MAIN CONTENT **/
 .skip a{
-    background-color: #b168a1;
+    background-color: #f4a3e2;
     text-decoration: none;
     left: 0;
     padding: 7px;
@@ -226,7 +226,7 @@ article{
   }
 
   .skip a:focus{
-    background-color: #b168a1;
+    background-color: #f4a3e2;
     position: absolute;
     top: 10px;
     color: #00000F;
