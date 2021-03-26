@@ -213,6 +213,7 @@ article{
 /** SKIP TO MAIN CONTENT **/
 .skip a{
     background-color: #f4a3e2;
+    color: #00000F;
     text-decoration: none;
     left: 0;
     padding: 7px;
