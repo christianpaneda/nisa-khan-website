@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "SometypeMono";
+    font-family: "SometypeMono", serif;
     background-color: #EEEEEE;
   }
 
@@ -69,7 +69,17 @@ h3{
     background-color:#F15B1C;
 }
 
+li > a{
+    text-decoration: none;
+    font-family: "SometypeMono", serif;
+    font-weight: 400;
+    color: #00000F;
+}
 
+.writing-samples > li > a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
 
 /** NAVIGATION BAR **/
 
@@ -136,7 +146,7 @@ nav.close{
 }
 
 .current::before{
-    content: '\2B51';
+    content: '\2B51 ';
     color: #00000F;
 }
 
@@ -159,6 +169,12 @@ ul li:hover{
 ul li:hover::before{
     content: '\2605';
     color: #EEEEEE;
+}
+
+ul.writing-samples li:hover::before{
+    content: '\2605';
+    color: #00000F;
+    padding-right: 5px;
 }
 
 .row-nav{
@@ -186,7 +202,7 @@ footer p{
 
 .writing-button.active{
     background-color: #F15B1C;
-    color: #EEEEEE;
+    color: #00000F;
 }
 
 .filter{
