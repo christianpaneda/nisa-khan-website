@@ -12,18 +12,39 @@
 </head>
 
 <body>
+ <div class="loading-screen">
+        <div class="loading-group">
+            <p class="loading-text"> loading... </p> 
+            <img src="assets/hourglass.svg" alt="">
+        </div>  
+    </div>  
+
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
         <div class="menu">  
-            <a href="index.html">Nisa Khan</a>
+            <div class="logo-text">
+            <a href="index.html" class="logo-text">Nisa Khan</a>
+            <img id="logo-star" class="no-logo-animate" src="img/star-logo.svg">
+            </div>
+            
             <a href="#" class="toggle-nav">
                 <img src="img/menu.svg" aria-label="open menu"/>
             </a>
+
+            <nav class="row-nav">
+                <ul>
+                    <li class="current menu-nav"><a href="index.html">Index</a></li>
+                    <li><a href="writing.html" class="menu-nav">Writing</a></li>
+                    <li><a href="media.html" class="menu-nav">Multimedia</a></li>
+                    <li><a href="about.html" class="menu-nav">About</a></li>
+                    <li><a href="contact.html"class="menu-nav">Contact</a></li>
+                </ul>
+            </nav>
         </div>
 
         <nav class="open">
             <ul>
-                <li class="current"><a href="index.html">Index</a></li>
+                <li class="current"><a href="index.html">&nbsp;Index</a></li>
                 <li><a href="writing.html">Writing</a></li>
                 <li><a href="media.html">Multimedia</a></li>
                 <li><a href="about.html">About</a></li>
@@ -32,65 +53,116 @@
         </nav>
     </header>
 
-    <main>
 
-        <article id="main">
-            <h1>Data Journalist </h1>
+
+    <main>
+        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font </button></div>    
+        <article>
             <img class="index-image" src="img/nisa-draft-2.png" alt="picture of nisa khan">
             <br>
-            <p> I am a recent Master’s graduate of digital/data journalism at Stanford University. For my undergrad, I majored in User Experience at the University of Michigan. I was an intern for Michigan Radio and their NPR's podcast Believed as well as a CUNY-J fellow for ProPublica. I used to be a reporter and editor for The Michigan Daily. I have covered a wide range of topics, from Title IX to prison closures to immigration to film representation. I like writing, videos, and the web.  </p>
+            <h1> Data Journalist </h1>
+            <div class="index-bio">
+            <p> &#10033; Currently a data reporter at Michigan Radio. Recently a Master’s graduate of digital/data journalism at Stanford University.</p>
+                <br>
+            <p> &#9998; Past intern for Michigan Radio and their NPR's podcast Believed, a CUNY-J fellow for ProPublica, and used to be a reporter and editor for The Michigan Daily.</p>
+                <br>
+            <p>&#9786; I like writing, videos, and the web.   </p>
+            <br>
+         </div>
+            <a class="button" href="https://www.linkedin.com/in/nisa-khan/" target="blank">LinkedIn &#8599;</a>
+            <a class="button" href="https://drive.google.com/file/d/1tCZjyYNtlcmT1In2DkxxYC67XFSWlXwS/view" target="blank">Resume &#8599;</a>
         </article>
 
-        <article>
+        <article id="main">
 
         <h2 class="sub-header"> Recent Work </h2>
 
         <div class="work-sample-box"> 
-            <div class="work-sample">
-                <img src="img/project-1.png" alt="map of Michigan that displays COVID-19 cases per county in 2020">
-                <div class="work-title-border"><h3 class="work-title-space"> <a class="link-style-simple" href="https://www.michiganradio.org/post/covid-19-numbers-one-year-after-first-cases-announced"> COVID-19 by the numbers, one year after first cases announced </a> </h3></div>
-                <div class="work-description-box"> 
-                    <p class="work-description-space"> Michigan Radio <p>
-                    <p class="work-description-space"> 03/20/2021 </p>
+            <div class="work-sample"> 
+                <div class="inner-card"> 
+                    <div class="back-card">
+                        <h3> <a class="back-card-font" href="https://www.michiganradio.org/post/covid-19-numbers-one-year-after-first-cases-announced"> COVID-19 by the numbers, one year after first cases announced </a> </h3>
+                    </div>
+                    <div class="front-card">
+                        <img src="img/project-5.png" alt="map of Michigan showcasing COVID-19 hospitalizations">
+                        <div class="work-title-border"><h3 class="work-title-space"> <a class="link-style-simple" href="https://www.michiganradio.org/post/covid-19-numbers-one-year-after-first-cases-announced"> COVID-19 by the numbers, one year after first cases announced </a> </h3></div>
+                        <div class="work-description-box"> 
+                            <p class="work-description-space"> Michigan Radio <p>
+                            <p class="work-description-space"> 03/20/2021 </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <div class="work-sample">
-                <img src="img/project-2.png" alt="pie charts of rate of vaccines distributed by male and female in Michigan">
-                <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.michiganradio.org/post/michigan-hits-1-million-covid-19-vaccine-doses-here-are-highlights" target="blank">Michigan hits 1 million COVID-19 vaccine doses — here are the highlights</a></h3></div>
-                <div class="work-description-box"> 
-                    <p class="work-description-space"> Michigan Radio </p>
-                    <p class="work-description-space"> 02/02/2021 </p>
+                <div class="inner-card">
+                    <div class="back-card"> 
+                        <h3><a class="back-card-font" href="https://www.michiganradio.org/post/michigan-hits-1-million-covid-19-vaccine-doses-here-are-highlights" target="blank">Michigan hits 1 million COVID-19 vaccine doses — here are the highlights </a></h3> </h3>
+                    </div>
+                    <div class="front-card">
+                        <img src="img/project-2.png" alt="map of Michigan showcasing COVID-19 hospitalizations">
+                        <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.michiganradio.org/post/michigan-hits-1-million-covid-19-vaccine-doses-here-are-highlights" target="blank">Michigan hits 1 million COVID-19 vaccine doses — here are the highlights </a></h3></div>
+                        <div class="work-description-box"> 
+                            <p class="work-description-space"> Michigan Radio </p>
+                            <p class="work-description-space"> 02/02/2021 </p>
+                        </div>
+                    </div>
                 </div>
+           
             </div>
       
             <div class="work-sample">
-                <img src="img/project-3.png" alt="map of Michigan showcasing COVID-19 hospitalizations">
-                <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.freep.com/story/news/local/michigan/2020/12/24/hospitals-near-capacity-michigan/3953622001/" target="blank"> 
-                    Hospitalizations decline, but some hospitals are near capacity according to state data</a></h3></div>
-                <div class="work-description-box"> 
-                    <p class="work-description-space"> Detroit Free Press </p>
-                    <p class="work-description-space"> 12/24/2020 </p>
+                <div class="inner-card">
+                    <div class="back-card"> 
+                        <h3><a class="back-card-font" href="https://www.freep.com/story/news/local/michigan/2020/12/24/hospitals-near-capacity-michigan/3953622001/" target="blank"> 
+                            Hospitalizations decline, but some hospitals are near capacity </a></h3>
+                    </div>
+                    <div class="front-card">
+                        <img src="img/project-3.png" alt="map of Michigan showcasing COVID-19 hospitalizations">
+                        <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.freep.com/story/news/local/michigan/2020/12/24/hospitals-near-capacity-michigan/3953622001/" target="blank"> 
+                            Hospitalizations decline, but some hospitals are near capacity </a></h3></div>
+                        <div class="work-description-box"> 
+                            <p class="work-description-space"> Detroit Free Press </p>
+                            <p class="work-description-space"> 12/24/2020 </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="work-sample">
-                <img src="img/project-4.png" alt="map of Michigan showcasing voter turnout by county">
-                <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.freep.com/story/news/politics/elections/2020/11/06/michigan-votes-by-county/6174547002/" target="blank">
-                    These counties had the highest turnout rates in Michigan</a></h3></div>
-                <div class="work-description-box"> 
-                    <p class="work-description-space"> Detroit Free Press </p>
-                    <p class="work-description-space"> 11/06/2020 </p>
+                <div class="inner-card">
+                    <div class="back-card">
+                        <h3><a class="back-card-font" href="https://www.freep.com/story/news/politics/elections/2020/11/06/michigan-votes-by-county/6174547002/" target="blank">
+                            These counties had the highest turnout rates in Michigan</a></h3>
+                    </div>
+                    <div class="front-card">
+                        <img src="img/project-4.png" alt="map of Michigan showcasing voter turnout by county">
+                        <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.freep.com/story/news/politics/elections/2020/11/06/michigan-votes-by-county/6174547002/" target="blank">
+                            These counties had the highest turnout rates in Michigan</a></h3></div>
+                        <div class="work-description-box"> 
+                            <p class="work-description-space"> Detroit Free Press </p>
+                            <p class="work-description-space"> 11/06/2020 </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="work-sample">
-                <img src="img/project-5.png" alt="map of Michigan showcasing travel density before COVID-19 pandemic">
-                <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.freep.com/story/news/local/michigan/2020/07/09/fourth-july-cuebiq-high-movement-data/5388877002/" target="blank">  
-                    Where Michigan didn't — and did — stay home on the Fourth of July weekend </a></h3></div>
-                <div class="work-description-box"> 
-                    <p class="work-description-space"> Detroit Free Press </a>
-                    <p class="work-description-space"> 07/09/2020 </p>
+                <div class="inner-card">
+                    <div class="back-card"> 
+                        <h3><a class="back-card-font" href="https://www.freep.com/story/news/local/michigan/2020/07/09/fourth-july-cuebiq-high-movement-data/5388877002/" target="blank">  
+                            Where Michigan didn't — and did — stay home on the Fourth of July</a></h3>
+                    </div>
+
+                    <div class="front-card"> 
+                        <img src="img/project-5.png" alt="map of Michigan showcasing travel density before COVID-19 pandemic">
+                        <div class="work-title-border"><h3 class="work-title-space"><a class="link-style-simple" href="https://www.freep.com/story/news/local/michigan/2020/07/09/fourth-july-cuebiq-high-movement-data/5388877002/" target="blank">  
+                            Where Michigan didn't — and did — stay home on the Fourth of July</a></h3></div>
+                        <div class="work-description-box"> 
+                            <p class="work-description-space"> Detroit Free Press </a>
+                            <p class="work-description-space"> 07/09/2020 </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -101,11 +173,17 @@
 
     <footer>
         <p> &#169; Created by Christian Paneda 2021 </p>
+        <hr>
+        <p> Follow Nisa </p>
+        <a href="https://www.linkedin.com/in/nisa-khan/" target="blank"> <img src="assets/linkedin.svg" class="social-media"> </a>
+        <a href="https://twitter.com/mnisakhan" target="blank"> <img src="assets/twitter.svg" class="social-media"> </a>
     </footer>
     
 </body>
 
 
 <script src="js/menu.js"></script> 
+<script src="js/animation.js"></script>
+<script src="js/loading.js"></script>
 
 </html>

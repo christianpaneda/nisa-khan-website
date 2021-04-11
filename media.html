@@ -15,17 +15,31 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
         <div class="menu">  
-            <a href="index.html">Nisa Khan</a>
+            <div class="logo-text">
+            <a href="index.html" class="logo-text">Nisa Khan</a>
+            <img id="logo-star" class="no-logo-animate" src="img/star-logo.svg">
+            </div>
+            
             <a href="#" class="toggle-nav">
                 <img src="img/menu.svg" aria-label="open menu"/>
             </a>
+
+            <nav class="row-nav">
+                <ul>
+                    <li><a href="index.html" class="menu-nav">Index</a></li>
+                    <li><a href="writing.html" class="menu-nav">Writing</a></li>
+                    <li class="current menu-nav"><a href="media.html" class="menu-nav">Multimedia</a></li>
+                    <li><a href="about.html" class="menu-nav">About</a></li>
+                    <li><a href="contact.html"class="menu-nav">Contact</a></li>
+                </ul>
+            </nav>
         </div>
 
         <nav class="open">
             <ul>
-                <li><a href="index.html">Index</a></li>
+                <li class="current"><a href="index.html">&nbsp;Index</a></li>
                 <li><a href="writing.html">Writing</a></li>
-                <li class="current"><a href="media.html">Multimedia</a></li>
+                <li><a href="media.html">Multimedia</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -33,6 +47,10 @@
     </header>
 
     <main id="main">
+
+
+        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font </button></div>
+
         <h1>Digital Media Work</h1>
         <h2>I am a data journalist uncovering the mysteries of the world</h2>
 
@@ -72,11 +90,16 @@
 
     <footer>
         <p> &#169; Created by Christian Paneda 2021 </p>
+        <hr>
+        <p> Follow Nisa </p>
+        <a href="https://www.linkedin.com/in/nisa-khan/" target="blank"> <img src="assets/linkedin.svg" class="social-media"> </a>
+        <a href="https://twitter.com/mnisakhan" target="blank"> <img src="assets/twitter.svg" class="social-media"> </a>
     </footer>
     
 </body>
 
 
 <script src="js/menu.js"></script> 
+<script src="js/animation.js"></script>
 
 </html>

@@ -15,16 +15,30 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
         <div class="menu">  
-            <a href="index.html">Nisa Khan</a>
+            <div class="logo-text">
+            <a href="index.html" class="logo-text">Nisa Khan</a>
+            <img id="logo-star" class="no-logo-animate" src="img/star-logo.svg">
+            </div>
+            
             <a href="#" class="toggle-nav">
                 <img src="img/menu.svg" aria-label="open menu"/>
             </a>
+
+            <nav class="row-nav">
+                <ul>
+                    <li><a href="index.html" class="menu-nav">Index</a></li>
+                    <li class="current menu-nav"><a href="writing.html" class="menu-nav">Writing</a></li>
+                    <li><a href="media.html" class="menu-nav">Multimedia</a></li>
+                    <li><a href="about.html" class="menu-nav">About</a></li>
+                    <li><a href="contact.html"class="menu-nav">Contact</a></li>
+                </ul>
+            </nav>
         </div>
 
         <nav class="open">
             <ul>
-                <li><a href="index.html">Index</a></li>
-                <li class="current"><a href="writing.html">Writing</a></li>
+                <li class="current"><a href="index.html">&nbsp;Index</a></li>
+                <li><a href="writing.html">Writing</a></li>
                 <li><a href="media.html">Multimedia</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -33,66 +47,107 @@
     </header>
 
     <main id="main">
+        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font </button></div>
         <article>
-
             <h1 class="main-header">Writing </h1>
-    
-            <button class="writing-button"> All Writing </button>
-            <button class="writing-button"> Michigan Radio </button>
-            <button class="writing-button"> Detroit Free Press </button>
-            <button class="writing-button"> ProPublica </button>
-            <button class="writing-button"> The Peninsula Press </button>
-            <button class="writing-button"> FilmDaze </button>
-            <button class="writing-button"> The Michigan Daily </button>
-            <button class="writing-button"> ONA Student Newsroom </button>
-            <button class="writing-button"> AAJA Voices </button>
+        <div id="button-container">
+            <button class="writing-button all-writing active"> All Writing </button>
+            <button class="writing-button michigan-radio"> Michigan Radio </button>
+            <button class="writing-button detroit-free-press"> Detroit Free Press </button>
+            <button class="writing-button propublica"> ProPublica </button>
+            <button class="writing-button peninsula-press"> The Peninsula Press </button>
+            <button class="writing-button film-daze"> FilmDaze </button>
+            <button class="writing-button michigan-daily"> The Michigan Daily </button>
+            <button class="writing-button other-writing"> Other </button>
+        </div>
 
             <h2 class="sub-header"> Take a look at my work! </h2>
 
-            <ul>
-                <li> Detroit Free Press: Michigan coronavirus cases: Tracking the pandemic </li>
-                <li> Detroit Free Press: Michigan economy: Tracking the recovery from coronavirus </li>
-                <li> Detroit Free Press: Where coronavirus cases are increasing — and decreasing — in Michigan </li>
-                <li> Detroit Free Press: Rally at courthouse, Groves High School supports teen incarcerated over online schoolwork (Co-published with ProPublica) </li>
-                <li> Detroit Free Press: Where Michigan didn't — and did — stay home on the Fourth of July weekend (This story serves as that issue’s 1A.) </li>
-                <li> Detroit Free Press: More teens in Michigan test positive for COVID-19 after proms and parties as schools nationwide begin reopening </li>
-                <li> Detroit Free Press: College coronavirus case increases spur spikes in some Michigan counties </li>
-                <li> Detroit Free Press: West Michigan man says yard signs were stolen. So he put up Joe Biden freeway billboards. </li>
-                <li>Detroit Free Press (contributed graphs): How to run a primary in a pandemic: Michigan clerks get a crash course</li>
-                <li>Detroit Free Press: Michigan stayed at home more than most states during pandemic, according to mobility data</li>
+            <div class="filter detroit-free-press">
+                <h3 class="sub-header-writing-sample"> Detroit Free Press </h3>
+                <ul class="writing-samples">
+                    <li> Detroit Free Press: Michigan coronavirus cases: Tracking the pandemic </li>
+                    <li> Detroit Free Press: Michigan economy: Tracking the recovery from coronavirus </li>
+                    <li> Detroit Free Press: Where coronavirus cases are increasing — and decreasing — in Michigan </li>
+                    <li> Detroit Free Press: Rally at courthouse, Groves High School supports teen incarcerated over online schoolwork (Co-published with ProPublica) </li>
+                    <li> Detroit Free Press: Where Michigan didn't — and did — stay home on the Fourth of July weekend (This story serves as that issue’s 1A.) </li>
+                    <li> Detroit Free Press: More teens in Michigan test positive for COVID-19 after proms and parties as schools nationwide begin reopening </li>
+                    <li> Detroit Free Press: College coronavirus case increases spur spikes in some Michigan counties </li>
+                    <li> Detroit Free Press: West Michigan man says yard signs were stolen. So he put up Joe Biden freeway billboards. </li>
+                    <li>Detroit Free Press (contributed graphs): How to run a primary in a pandemic: Michigan clerks get a crash course</li>
+                    <li>Detroit Free Press: Michigan stayed at home more than most states during pandemic, according to mobility data</li>
+                </ul>
+            </div>
+            
+            <div class="filter peninsula-press">
+                <h3 class="sub-header-writing-sample"> The Peninsula Press</h3>
+            <ul class="writing-samples">
                 <li>The Peninsula Press: Frustrated by the court system, families of homicide victims find solace with each other</li>
                 <li>The Peninsula Press: Activists petition Gov. Newsom to pardon prisoners facing deportation after serving their sentence</li>
                 <li>The Peninsula Press: San Francisco Supervisor proposes permanently shutting down troubled county jail</li>
                 <li>The Peninsula Press: Domestic abuse advocates rally around incarcerated woman facing deportation</li>
-                <li>FilmDaze: “Money and a Room of One’s Own”: Mill Valley’s Mind The Gap Dissects Finance and Power in Hollywood</li>
-                <li>Contributed to Michigan Radio/NPR’s Believed</li>
-                <li>Michigan Radio: These young women want to give Dearborners “permission to be proud” of their city</li>
-                <li>
-                    Michigan Radio: Photos: Finding happiness with an unconventional Eid celebration in the time of COVID-19
-                    (Instagram version here.)
-                </li>
-                <li>Michigan Radio: Advocate and Nassar survivor kicks off project to aid new activists</li>
-                <li>Michigan Radio: Here’s the latest on the officials facing charges for the Flint water crisis</li>
-                <li>Michigan Radio contributor: Data analysis: "Modern-day redlining" happening in Detroit and Lansing</li>
-                <li>Michigan Radio contributor: Detroit suburb says it’s “paying for the sins” of MDEQ in Flint water crisis, sues state</li>
-                <li>Michigan Radio contributor: Romulus blames high lead levels on one vacant home that's not vacant</li>
-                <li>ProPublica: We Found a New Batch of Trump Administration Appointees</li>
-                <li>ProPublica contributor: The Immigrant Children’s Shelters Near You</li>
-                <li>ProPublica contributor: Fuel to Fire</li>
-                <li>The Michigan Daily: Broken Record: Student survivor navigates painful reporting process</li>
-                <li>The Michigan Daily speaking event: Wallace House Presents - Ronan Farrow and Ken Auletta</li>
-                <li>The Michigan Daily: "They did not see us. We made sure they didn’t.": Transgender individuals continue the struggle against possible military ban, healthcare complications</li>
-                <li>The Michigan Daily: The Runaround: What it's like to file a bias report at the University</li>
-                <li>The Michigan Daily: Turning energy into action is the message of the first Women’s Convention in forty years</li>
-                <li>The Michigan Daily: A/PIA community rallies after Lawsin contract renewal denied by 'U'</li>
-                <li>The Michigan Daily: I’m proud to be Syrian: Syrian refugees in Michigan</li>
-                <li>The Michigan Daily: Almost 1,000 protest president-elect Trump's victory in rally, vigil on Diag</li>
-                <li>The Michigan Daily: Students hold walkout with Rev. Jesse Jackson demanding University action against racism</li>
-                <li>The Michigan Daily: The conundrum of Asian-Americans: a conversation with Viet Thanh Nguyen</li>
+            </ul>
+            </div>
+
+
+            <div class="filter film-daze">
+                <h3 class="sub-header-writing-sample"> Film Daze </h3>
+                <ul class="writing-samples">
+                    <li>FilmDaze: “Money and a Room of One’s Own”: Mill Valley’s Mind The Gap Dissects Finance and Power in Hollywood</li>
+                </ul>
+            </div>
+            
+            <div class="filter michigan-radio">
+                <h3 class="sub-header-writing-sample"> Michigan Radio </h3>
+                <ul class="writing-samples">
+                    <li>Contributed to Michigan Radio/NPR’s Believed</li>
+                    <li>Michigan Radio: These young women want to give Dearborners “permission to be proud” of their city</li>
+                    <li>
+                        Michigan Radio: Photos: Finding happiness with an unconventional Eid celebration in the time of COVID-19
+                        (Instagram version here.)
+                    </li>
+                    <li>Michigan Radio: Advocate and Nassar survivor kicks off project to aid new activists</li>
+                    <li>Michigan Radio: Here’s the latest on the officials facing charges for the Flint water crisis</li>
+                    <li>Michigan Radio contributor: Data analysis: "Modern-day redlining" happening in Detroit and Lansing</li>
+                    <li>Michigan Radio contributor: Detroit suburb says it’s “paying for the sins” of MDEQ in Flint water crisis, sues state</li>
+                    <li>Michigan Radio contributor: Romulus blames high lead levels on one vacant home that's not vacant</li>
+                </ul>
+            </div>
+
+            <div class="filter propublica">
+                <h3 class="sub-header-writing-sample"> ProPublica </h3>
+                <ul class="writing-samples">
+                    <li>ProPublica: We Found a New Batch of Trump Administration Appointees</li>
+                    <li>ProPublica contributor: The Immigrant Children’s Shelters Near You</li>
+                    <li>ProPublica contributor: Fuel to Fire</li>
+                </ul>
+            </div>
+
+
+            <div class="filter michigan-daily"> 
+                <h3 class="sub-header-writing-sample"> The Michigan Daily </h3>                 
+                <ul class="writing-samples">
+                    <li>The Michigan Daily: Broken Record: Student survivor navigates painful reporting process</li>
+                    <li>The Michigan Daily speaking event: Wallace House Presents - Ronan Farrow and Ken Auletta</li>
+                    <li>The Michigan Daily: "They did not see us. We made sure they didn’t.": Transgender individuals continue the struggle against possible military ban, healthcare complications</li>
+                    <li>The Michigan Daily: The Runaround: What it's like to file a bias report at the University</li>
+                    <li>The Michigan Daily: Turning energy into action is the message of the first Women’s Convention in forty years</li>
+                    <li>The Michigan Daily: A/PIA community rallies after Lawsin contract renewal denied by 'U'</li>
+                    <li>The Michigan Daily: I’m proud to be Syrian: Syrian refugees in Michigan</li>
+                    <li>The Michigan Daily: Almost 1,000 protest president-elect Trump's victory in rally, vigil on Diag</li>
+                    <li>The Michigan Daily: Students hold walkout with Rev. Jesse Jackson demanding University action against racism</li>
+                    <li>The Michigan Daily: The conundrum of Asian-Americans: a conversation with Viet Thanh Nguyen</li>
+                </ul>
+            </div>
+
+            <div class="filter other-writing">
+                <h3 class="sub-header-writing-sample"> Other Work </h3>  
+            <ul class="writing-samples">
                 <li>ONA Student Newsroom: Former EPA Administrator emphasizes community in covering the climate crisis</li>
                 <li>ONA Student Newsroom: What recruiters are seeking in future reporters</li>
                 <li>AAJA Voices: 'The immigrant and the stranger'</li>
-
+            </ul>
+            </div>
 
 
             </ul>
@@ -103,10 +158,16 @@
 
     <footer>
         <p> &#169; Created by Christian Paneda 2021 </p>
+        <hr>
+        <p> Follow Nisa </p>
+        <a href="https://www.linkedin.com/in/nisa-khan/" target="blank"> <img src="assets/linkedin.svg" class="social-media"> </a>
+        <a href="https://twitter.com/mnisakhan" target="blank"> <img src="assets/twitter.svg" class="social-media"> </a>
     </footer>
     
 </body>
 
-<script src="js/menu.js"></script> 
+<script src="js/menu.js"></script>
+<script src="js/animation.js"></script> 
+<script src="js/filter.js"></script> 
 
 </html>

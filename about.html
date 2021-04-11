@@ -15,28 +15,48 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
         <div class="menu">  
-            <a href="index.html">Nisa Khan</a>
+            <div class="logo-text">
+            <a href="index.html" class="logo-text">Nisa Khan</a>
+            <img id="logo-star" class="no-logo-animate" src="img/star-logo.svg">
+            </div>
+            
             <a href="#" class="toggle-nav">
                 <img src="img/menu.svg" aria-label="open menu"/>
             </a>
+
+            <nav class="row-nav">
+                <ul>
+                    <li><a href="index.html" class="menu-nav">Index</a></li>
+                    <li><a href="writing.html" class="menu-nav">Writing</a></li>
+                    <li><a href="media.html" class="menu-nav">Multimedia</a></li>
+                    <li class="current menu-nav"><a href="about.html" class="menu-nav">About</a></li>
+                    <li><a href="contact.html"class="menu-nav">Contact</a></li>
+                </ul>
+            </nav>
         </div>
 
         <nav class="open">
             <ul>
-                <li><a href="index.html">Index</a></li>
+                <li class="current"><a href="index.html">&nbsp;Index</a></li>
                 <li><a href="writing.html">Writing</a></li>
                 <li><a href="media.html">Multimedia</a></li>
-                <li class="current"><a href="about.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <div class="toggle-fonts not-main"> <button class="button toggle"> no-pixel font </button></div>
+    <div class="cool-collage"> </div>
+
     <main id="main">
         <article>
+            <div> <h3> this is a test</h3>
+            <div id="example"> </div>
+            </div>
+        </article>
+        <article>
             <h1>About the Author </h1>
-
-            <div class="cool-collage"> </div>
             <p> My relationship to my identity has been a paradox of stubborn belief in who I am mixed in with a shit-ton of insecurities. The stubborn belief part came a little late. My life story goes: Born in the United States, spent years abroad living in four countries, came back to the U.S. for high school and steadily becoming hyper-aware of my capital O, quotation marks “Otherness.”</p>
             <br> 
             <p>  I think we all have a complicated relationship with who we are. I think it's a mess of emotions and deep thought. I think a lot about how I present myself, the ways I suppress myself, the ways people see me, my culture, my language, my home life, my strained relationship with my kind-of hometown Lahore, Pakistan. I think, in the U.S., it’s hard to pin yourself down and make yourself a place because the ground beneath you is always shifting and rejecting parts of you. But I think data and journalism is an intersection to explore people's narratives. We can be explore together.</p>
@@ -50,11 +70,20 @@
 
     <footer>
         <p> &#169; Created by Christian Paneda 2021 </p>
+        <hr>
+        <p> Follow Nisa </p>
+        <a href="https://www.linkedin.com/in/nisa-khan/" target="blank"> <img src="assets/linkedin.svg" class="social-media"> </a>
+        <a href="https://twitter.com/mnisakhan" target="blank"> <img src="assets/twitter.svg" class="social-media"> </a>
     </footer>
     
 </body>
 
 
-<script src="js/menu.js"></script> 
+<!-- <script src="js/menu.js"></script> -->
+<script src="js/menu.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/textures.js"></script>
+<script src="js/data-vis.js"></script> 
 
 </html>
