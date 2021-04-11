@@ -296,17 +296,14 @@ button{
 }
 
 .button{
-    border: 1px solid #292929;
+    font-family: "Kawingan", sans-serif;
+    background-color: #292929;  
     font-weight: 600;
     text-decoration: none;
-    color: #292929;
+    color: #EEEEEE;
     padding: 8px 12px 8px 12px;
-    display: inline-block;
-    border-radius: 1px;
     transition: 0.5s ease-in-out, color 0.5s ease-in-out;
-    margin: 0 12px 0 0;
-    align-items: center;
-    justify-content: center;
+    margin: 12px 12px 0 0;
 }
 
 
@@ -439,7 +436,6 @@ div.loading-screen.hidden{
 
   .multimedia img:hover{
       opacity: 0.5;
-      padding: 12px 0px 12px 0px; 
   }
 
 /** FORM STYLING **/
@@ -480,7 +476,7 @@ div.loading-screen.hidden{
   }
   
   input[type=submit] {
-    font-family: "SometypeMono", sans-serif;
+    font-family: "Kawingan", sans-serif;
     background-color: #292929;  
     font-weight: 600;
     text-decoration: none;
@@ -618,6 +614,14 @@ div.loading-screen.hidden{
           justify-content: center;
           width: 32%; 
           margin-right: 10px;
+      }
+
+      .multimedia{
+          grid-template-columns: repeat(3, 1fr);
+      }
+
+      .multimedia img{
+          padding: 8px;
       }
 
     
