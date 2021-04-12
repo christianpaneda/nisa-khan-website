@@ -455,11 +455,6 @@ div.loading-screen.hidden{
   }
 
 /** FORM STYLING **/
-
-  form{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); 
-  }
   
   legend{ 
     font-family: 'Kawingan', serif;
@@ -639,6 +634,12 @@ div.loading-screen.hidden{
       .multimedia img{
           padding: 8px;
       }
+
+
+  form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
 
     
   }
