@@ -182,6 +182,10 @@ ul li:hover::before{
     color: #00000F;
 }
 
+nav.close ul li> a{
+    padding-right: 100%;
+}
+
 a.menu-nav:hover{
     color: #00000F
 }
