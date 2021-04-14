@@ -40,7 +40,7 @@
                 <ul>
                     <li><a href="index.html" class="menu-nav">Index</a></li>
                     <li><a href="writing.html" class="menu-nav">Writing</a></li>
-                    <li class="current menu-nav"><a href="media.html" class="menu-nav">Multimedia</a></li>
+                    <li id="current" class="menu-nav"><a href="media.html" class="menu-nav">Multimedia</a></li>
                     <li><a href="about.html" class="menu-nav">About</a></li>
                     <li><a href="contact.html"class="menu-nav">Contact</a></li>
                 </ul>
@@ -49,9 +49,9 @@
 
         <nav class="open">
             <ul>
-                <li class="current"><a href="index.html">&nbsp;Index</a></li>
+                <li><a href="index.html">Index</a></li>
                 <li><a href="writing.html">Writing</a></li>
-                <li><a href="media.html">Multimedia</a></li>
+                <li id="current"><a href="media.html">Multimedia</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -61,42 +61,59 @@
     <main id="main">
 
 
-        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font </button></div>
+        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font &#9873; </button></div>
 
         <h1>Digital Media Work</h1>
         <h2>I am a data journalist uncovering the mysteries of the world</h2>
 
+
+
         <article>
-            <div> 
-            <h3 class="multimedia-header"> <a href="https://www.michiganradio.org/post/photos-finding-happiness-unconventional-eid-celebration-time-covid-19" target="blank" class="link-style-simple">Celebrating Eid during a pandemic</a> </h3>
-            <p> Detroit Free Press </p>
+                      
             <div class="multimedia">
+                <div class="multimedia-title"> 
+                    <h3 class="multimedia-header"> <a href="http://peninsulapress.com/2019/11/14/activists-petition-gov-newsom-to-pardon-prisoners-facing-deportation-after-serving-their-sentence/" class="link-style-simple" target="blank">&#9758; Activists petition Gov. Newsom to pardon prisoners facing deportation after serving their sentence</a></h3>
+                    <p> <span class="media-work">The Peninsula Press</span> </p>
+                    </div> 
+                <div class="multimedia-images"> 
+                    <img src="img/activism-bay-area-1.jpg" alt="a protest with people holding up signs">
+                    <img src="img/activism-bay-area-2.jpg" alt="two elderly people wearing matching shirts to protest family deportation">
+                    <img src="img/activism-bay-area-3.jpeg" alt="a protest with people holding up signs">
+                </div>
+            </div>
+
+            <div class="multimedia">
+                <div class="multimedia-title"> 
+                    <h3 class="multimedia-header">  <a href="http://peninsulapress.com/2019/10/30/frustrated-by-the-court-system-families-of-homicide-victims-find-solace-with-each-other/" class="link-style-simple" target="blank">&#9758; Frustrated by the court system, families of homicide victims find solace with each other</a> </h3>
+                    <p> <span class="media-work">The Peninsula Press</span> </p>
+                    </div> 
+                <div class="multimedia-images"> 
+                    <img src="img/activism-3.jpg" alt="a child and mother sitting at a table with snacks">
+                    <img src="img/activism-4.jpg" alt="a man sitting down at a table talking to other people">
+                    <img src="img/activism-5.jpeg" alt="a protest with people holding up signs">
+                </div>
+            </div>
+
+
+            <div class="multimedia">
+                <div class="multimedia-title"> 
+                    <h3 class="multimedia-header"> <a href="https://www.michiganradio.org/post/photos-finding-happiness-unconventional-eid-celebration-time-covid-19" target="blank" class="">&#9758; Celebrating Eid during a pandemic</a> </h3>
+                    <p> <span class="media-work"> Detroit Free Press </span></p>
+                    </div> 
+                <div class="multimedia-images"> 
                 <img src="img/eid-photo-1.jpg" alt="a driveway with trees that is decorated with balloons that spell 'Eid Mubarak'">
                 <img src="img/eid-photo-2.jpg" alt="a family of four in a red car wearing masks celebrating eid">
                 <img src="img/eid-photo-3.jpeg" alt="a family of four in a van celebrating eid">
                 <img src="img/eid-photo-4.jpeg" alt="a mosque with a parking lot decorated with balloons">
                 <img src="img/eid-photo-5.jpeg" alt="three women holding balloons wearing masks ">
                 <img src="img/eid-photo-6.jpeg" alt="a family of six in a van celebrating eid">
+                <img src="img/eid-photo-7.jpeg" alt="a mosque with a parking lot decorated with balloons">
+                <img src="img/eid-photo-8.jpeg" alt="three women holding balloons wearing masks ">
+                <img src="img/eid-photo-9.jpeg" alt="a family of six in a van celebrating eid">
+                </div>
             </div>
-            </div>
-
-            <div>
-            <h3 class="multimedia-header"> <a href="http://peninsulapress.com/2019/11/14/activists-petition-gov-newsom-to-pardon-prisoners-facing-deportation-after-serving-their-sentence/" class="link-style-simple" target="blank">Activists petition Gov. Newsom to pardon prisoners facing deportation after serving their sentence</a></h3>
-            <p> The Peninsula Press </p>
-            <div class="multimedia">
-                <img src="img/activism-bay-area-1.jpg" alt="a protest with people holding up signs">
-                <img src="img/activism-bay-area-2.jpg" alt="two elderly people wearing matching shirts to protest family deportation">
-            </div>
-            </div>
-
-            <div> 
-            <h3 class="multimedia-header">  <a href="http://peninsulapress.com/2019/10/30/frustrated-by-the-court-system-families-of-homicide-victims-find-solace-with-each-other/" class="link-style-simple" target="blank">Frustrated by the court system, families of homicide victims find solace with each other</a> </h3>
-           <p> The Peninsula Press </p>
-            <div class="multimedia">
-                <img src="img/activism-3.jpg" alt="a child and mother sitting at a table with snacks">
-                <img src="img/activism-4.jpg" alt="a man sitting down at a table talking to other people">
-            </div>
-            </div>
+    
+            
         </article>
     </main>
 
@@ -104,8 +121,8 @@
         <p> &#169; Created by Christian Paneda 2021 </p>
         <hr>
         <p> Follow Nisa </p>
-        <a href="https://www.linkedin.com/in/nisa-khan/" target="blank"> <img src="assets/linkedin.svg" class="social-media"> </a>
-        <a href="https://twitter.com/mnisakhan" target="blank"> <img src="assets/twitter.svg" class="social-media"> </a>
+        <a href="https://www.linkedin.com/in/nisa-khan/" target="blank" > <img src="assets/linkedin.svg" class="social-media" aria-label="linkedin"> </a>
+        <a href="https://twitter.com/mnisakhan" target="blank"> <img src="assets/twitter.svg" class="social-media" aria-label="twitter"> </a>
     </footer>
     
 </body>
@@ -113,5 +130,9 @@
 
 <script src="js/menu.js"></script> 
 <script src="js/animation.js"></script>
+
+
+
+
 
 </html>

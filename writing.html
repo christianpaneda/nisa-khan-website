@@ -39,7 +39,7 @@
             <nav class="row-nav">
                 <ul>
                     <li><a href="index.html" class="menu-nav">Index</a></li>
-                    <li class="current menu-nav"><a href="writing.html" class="menu-nav">Writing</a></li>
+                    <li id="current" class="menu-nav"><a href="writing.html" class="menu-nav">Writing</a></li>
                     <li><a href="media.html" class="menu-nav">Multimedia</a></li>
                     <li><a href="about.html" class="menu-nav">About</a></li>
                     <li><a href="contact.html"class="menu-nav">Contact</a></li>
@@ -49,8 +49,8 @@
 
         <nav class="open">
             <ul>
-                <li class="current"><a href="index.html">&nbsp;Index</a></li>
-                <li><a href="writing.html">Writing</a></li>
+                <li><a href="index.html">Index</a></li>
+                <li id="current"><a href="writing.html">Writing</a></li>
                 <li><a href="media.html">Multimedia</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -59,9 +59,10 @@
     </header>
 
     <main id="main">
-        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font </button></div>
+        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font &#9873;</button></div>
         <article>
             <h1 class="main-header">Writing </h1>
+            <h2> Take a look at my work! Filter my writing by publication. </h2>
         <div id="button-container">
             <button class="writing-button all-writing active"> All Writing </button>
             <button class="writing-button michigan-radio"> Michigan Radio </button>
@@ -73,10 +74,10 @@
             <button class="writing-button other-writing"> Other </button>
         </div>
 
-            <h2 class="sub-header"> Take a look at my work! </h2>
+            
 
             <div class="filter detroit-free-press">
-                <h3 class="sub-header-writing-sample"> Detroit Free Press </h3>
+                <h3 class="sub-header-writing-sample"> <span class="sub-header">Detroit Free Press</span> </h3>
                 <ul class="writing-samples">
                     <li> <a href="https://www.freep.com/in-depth/news/nation/coronavirus/2020/04/11/michigan-coronavirus-cases-tracking-covid-19-pandemic/5121186002/" target="blank">Detroit Free Press: Michigan coronavirus cases: Tracking the pandemic</a> </li>
                     <li> <a href="https://www.freep.com/in-depth/money/business/2020/07/24/michigan-unemployment-economy-recovery-coronavirus-covid-19/5460934002/">Detroit Free Press: Michigan economy: Tracking the recovery from coronavirus</a> </li>
@@ -92,7 +93,7 @@
             </div>
             
             <div class="filter peninsula-press">
-                <h3 class="sub-header-writing-sample"> The Peninsula Press</h3>
+                <h3 class="sub-header-writing-sample"> <span class="sub-header">The Peninsula Press</span></h3>
             <ul class="writing-samples">
                 <li><a href="http://peninsulapress.com/2019/10/30/frustrated-by-the-court-system-families-of-homicide-victims-find-solace-with-each-other/">The Peninsula Press: Frustrated by the court system, families of homicide victims find solace with each other</a></li>
                 <li><a href="http://peninsulapress.com/2019/11/14/activists-petition-gov-newsom-to-pardon-prisoners-facing-deportation-after-serving-their-sentence/">The Peninsula Press: Activists petition Gov. Newsom to pardon prisoners facing deportation after serving their sentence</a></li>
@@ -103,14 +104,14 @@
 
 
             <div class="filter film-daze">
-                <h3 class="sub-header-writing-sample"> Film Daze </h3>
+                <h3 class="sub-header-writing-sample"> <span class="sub-header">Film Daze</span> </h3>
                 <ul class="writing-samples">
                     <li><a href="https://filmdaze.net/money-and-a-room-of-ones-own-mill-valleys-mind-the-gap-dissects-finance-and-power-in-hollywood/">FilmDaze: “Money and a Room of One’s Own”: Mill Valley’s Mind The Gap Dissects Finance and Power in Hollywood</a></li>
                 </ul>
             </div>
             
             <div class="filter michigan-radio">
-                <h3 class="sub-header-writing-sample"> Michigan Radio </h3>
+                <h3 class="sub-header-writing-sample"> <span class="sub-header">Michigan Radio</span> </h3>
                 <ul class="writing-samples">
                     <li><a href="https://believed.michiganradio.org/">Contributed to Michigan Radio/NPR’s Believed</a></li>
                     <li><a href="https://www.michiganradio.org/post/these-young-women-want-give-dearborners-permission-be-proud-their-city">Michigan Radio: These young women want to give Dearborners “permission to be proud” of their city</a></li>
@@ -126,7 +127,7 @@
             </div>
 
             <div class="filter propublica">
-                <h3 class="sub-header-writing-sample"> ProPublica </h3>
+                <h3 class="sub-header-writing-sample"> <span class="sub-header">ProPublica</span> </h3>
                 <ul class="writing-samples">
                     <li><a href="https://www.propublica.org/article/new-batch-of-trump-administration-appointees">ProPublica: We Found a New Batch of Trump Administration Appointees</a></li>
                     <li><a href="https://projects.propublica.org/graphics/migrant-shelters-near-you">ProPublica contributor: The Immigrant Children’s Shelters Near You</a></li>
@@ -136,7 +137,7 @@
 
 
             <div class="filter michigan-daily"> 
-                <h3 class="sub-header-writing-sample"> The Michigan Daily </h3>                 
+                <h3 class="sub-header-writing-sample"> <span class="sub-header">The Michigan Daily</span> </h3>                 
                 <ul class="writing-samples">
                     <li><a href="https://www.michigandaily.com/section/community-affairs/broken-record-student-survivor-navigates-painful-reporting-process">The Michigan Daily: Broken Record: Student survivor navigates painful reporting process</a></li>
                     <li><a href="https://www.youtube.com/watch?v=M-1fqholvT0&feature=youtu.be&t=427">The Michigan Daily speaking event: Wallace House Presents - Ronan Farrow and Ken Auletta</a></li>
@@ -152,7 +153,7 @@
             </div>
 
             <div class="filter other-writing">
-                <h3 class="sub-header-writing-sample"> Other Work </h3>  
+                <h3 class="sub-header-writing-sample"> <span class="sub-header">Other Work</span> </h3>  
             <ul class="writing-samples">
                 <li><a href="https://newsroom19.journalists.org/2019/09/13/former-epa-administrator-emphasizes-community-in-covering-the-climate-crisis/">ONA Student Newsroom: Former EPA Administrator emphasizes community in covering the climate crisis</a></li>
                 <li><a href="https://newsroom19.journalists.org/2019/09/14/what-recruiters-are-seeking-in-future-reporters/">ONA Student Newsroom: What recruiters are seeking in future reporters</a></li>

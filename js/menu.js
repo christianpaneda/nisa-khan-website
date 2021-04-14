@@ -18,6 +18,7 @@ const header1 = document.querySelector("h1");
 const header2 = document.querySelectorAll("h2");
 const header3 = document.querySelectorAll("h3");
 const link = document.querySelectorAll("a");
+const list = document.querySelectorAll("li");
 const button = document.querySelectorAll("button");
 const toggleButton = document.querySelector("button.toggle");
 let fontChange = document.body;
@@ -46,6 +47,8 @@ toggleButton.addEventListener("click", () => {
         }
     }
 
+   
+
     for (i = 0; i < link.length; i++){
         link[i].classList.toggle("no-pixel-font");
     }
@@ -56,7 +59,7 @@ toggleButton.addEventListener("click", () => {
 
     // change text in button
     if (toggleButton.innerHTML === "pixel font"){
-        toggleButton.innerHTML = "no-pixel font";
+        toggleButton.innerHTML = "no-pixel font &#9873;";
 
     }
     else{

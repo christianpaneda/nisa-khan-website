@@ -38,7 +38,7 @@
 
             <nav class="row-nav">
                 <ul>
-                    <li class="current menu-nav"><a href="index.html">Index</a></li>
+                    <li id="current" class="menu-nav"><a href="index.html">Index</a></li>
                     <li><a href="writing.html" class="menu-nav">Writing</a></li>
                     <li><a href="media.html" class="menu-nav">Multimedia</a></li>
                     <li><a href="about.html" class="menu-nav">About</a></li>
@@ -49,7 +49,7 @@
 
         <nav class="open">
             <ul>
-                <li class="current"><a href="index.html">&nbsp;Index</a></li>
+                <li id="current"><a href="index.html">Index</a></li>
                 <li><a href="writing.html">Writing</a></li>
                 <li><a href="media.html">Multimedia</a></li>
                 <li><a href="about.html">About</a></li>
@@ -61,33 +61,39 @@
 
 
     <main>
-        <div class="loading-screen">
+      <!--  <div class="loading-screen">
             <div class="loading-group">
                 <p class="loading-text"> loading... </p> 
                 <img src="assets/hourglass.svg" alt="">
             </div>  
-        </div> 
+        </div> -->
 
-        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font </button></div>    
+        <div class="toggle-fonts"> <button class="button toggle"> no-pixel font &#9873;</button></div>    
         <article>
-            <img class="index-image" src="img/nisa-draft-2.png" alt="picture of nisa khan">
-            <br>
-            <h1> Data Journalist </h1>
-            <div class="index-bio">
-            <p> &#10033; Currently a data reporter at Michigan Radio. Recently a Master’s graduate of digital/data journalism at Stanford University.</p>
+            <div id="index-bio-container">
+                <img class="index-image" src="img/nisa-draft-2.png" alt="picture of nisa khan">
+            
+                
+                <div class="index-bio">
+
+                    <h1> Data Journalist </h1>
+
+                <p> &#10033; Currently a data reporter at Michigan Radio. Recently a Master’s graduate of digital/data journalism at Stanford University.</p>
+                    <br>
+                <p> &#9998; Past intern for Michigan Radio and their NPR's podcast Believed, a CUNY-J fellow for ProPublica, and used to be a reporter and editor for The Michigan Daily.</p>
+                    <br>
+                <p>&#9786; I like writing, videos, and the web.   </p>
                 <br>
-            <p> &#9998; Past intern for Michigan Radio and their NPR's podcast Believed, a CUNY-J fellow for ProPublica, and used to be a reporter and editor for The Michigan Daily.</p>
-                <br>
-            <p>&#9786; I like writing, videos, and the web.   </p>
-            <br>
-         </div>
-            <a class="button" href="https://www.linkedin.com/in/nisa-khan/" target="blank">LinkedIn &#8599;</a>
-            <a class="button" href="https://drive.google.com/file/d/1tCZjyYNtlcmT1In2DkxxYC67XFSWlXwS/view" target="blank">Resume &#8599;</a>
+                <a class="button" href="https://www.linkedin.com/in/nisa-khan/" target="blank">LinkedIn &#8599;</a>
+                <a class="button" href="https://drive.google.com/file/d/1tCZjyYNtlcmT1In2DkxxYC67XFSWlXwS/view" target="blank">Resume &#8599;</a>
+                         </div>
+            </div>
+         
         </article>
 
         <article id="main">
 
-        <h2 class="sub-header"> Recent Work </h2>
+        <h2> <span class="sub-header">Recent Work</span> </h2>
 
         <div class="work-sample-box"> 
             <div class="work-sample"> 
@@ -196,6 +202,6 @@
 
 <script src="js/menu.js"></script> 
 <script src="js/animation.js"></script>
-<script src="js/loading.js"></script>
+<!-- <script src="js/loading.js"></script> --> 
 
 </html>
