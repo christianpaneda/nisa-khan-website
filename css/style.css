@@ -144,11 +144,11 @@ nav.close{
     margin: 0px; 
 }
 
-#current{
+.current{
    background-color: #b168a1;
 }
 
-#current::before{
+.current::before{
     content: '\2B51 ';
     color: #00000F;
 }
@@ -489,6 +489,10 @@ div.loading-screen.hidden{
       color: #00000F
   }
 
+  h3.multimedia-header > a::before{
+      content: '\261E '
+  }
+
   .multimedia{
       display: grid;
       
@@ -644,7 +648,7 @@ div.loading-screen.hidden{
         border-bottom: 1px solid #2a2929;
     }
 
-    .menu-nav, #current{
+    .menu-nav{
         font-family: 'Kawingan', serif;
         font-weight: 700;
         font-size: 20px;
