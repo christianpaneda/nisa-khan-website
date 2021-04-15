@@ -341,7 +341,10 @@ button{
     padding: 8px 12px 8px 12px;
     transition: 0.5s ease-in-out, color 0.5s ease-in-out;
     margin: 12px 12px 0 0;
+}
 
+button.button{
+    font-family: "Helvetica", sans-serif;
 }
 
 
@@ -780,10 +783,6 @@ div.loading-screen.hidden{
  
 
   }
-
-
-
-
 
 
   .no-pixel-font{
