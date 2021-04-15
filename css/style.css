@@ -784,11 +784,14 @@ div.loading-screen.hidden{
       animation: none; 
     }
 
-    div.loading-screen img{
-        animation: none;
+    div.loading-screen{
+     display: none;
     }
 
- 
+    .cool-office{
+    background-attachment:scroll;
+    }
+
 
   }
 
