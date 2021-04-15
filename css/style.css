@@ -122,7 +122,6 @@ li{
 }
 .logo-text{
     font-family: 'Kawingan', serif;
-    /* font-style: italic; */
     font-weight: 700;
     font-size: 48px;
     color: #FFF;
@@ -637,7 +636,6 @@ div.loading-screen.hidden{
 
     .menu-nav, #current{
         font-family: 'Kawingan', serif;
-        /* font-style: italic; */
         font-weight: 700;
         font-size: 20px;
         color: #FFF;
