@@ -59,7 +59,7 @@ toggleButton.addEventListener("click", () => {
 
     // change text in button
     if (toggleButton.innerHTML === "pixel font"){
-        toggleButton.innerHTML = "no-pixel font &#9873;";
+        toggleButton.innerHTML = "no-pixel font";
 
     }
     else{

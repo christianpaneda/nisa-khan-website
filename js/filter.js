@@ -37,8 +37,8 @@ function removeFilterClass(element, name) {
     element.className = arr1.join(" ");
   }
 
-let buttonContainer = document.getElementById("button-container");
-let buttons = buttonContainer.getElementsByClassName("writing-button");
+const buttonContainer = document.getElementById("button-container");
+const buttons = buttonContainer.getElementsByClassName("writing-button");
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function() {
     let current = document.getElementsByClassName("active");
