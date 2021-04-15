@@ -687,6 +687,11 @@ div.loading-screen.hidden{
   }
 
   @media (min-width: 1020px){
+
+    main{
+        margin: 20px 48px;
+    }
+
     article{
         margin: 44px 0;
     }
